@@ -7,11 +7,6 @@
 var Home = PageCore.extend({
     init: function() {
         arguments.callee.$.init.call(this);
-        YTVAds.initLetterBox();
-        InstagramFeed.init();
-        this.mapInfo();
-        this.autoReveal();
-        this.starReveal();
 
     },
     mapInfo: function() {

@@ -24,7 +24,6 @@ module.exports = function(grunt) {
 	 */
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		faqData: grunt.file.readJSON('src/asset/data/faq_data.json'),
 
 		/*
 		 * An array list of all your js files to be minified in compiling order
@@ -45,14 +44,6 @@ module.exports = function(grunt) {
 				'src/js/util/IE8Fixes.js',
 				'src/js/lib/instafeed.js',
 				'src/js/page/Home.js',
-				'src/js/page/Judges.js',
-				'src/js/page/Carlos.js',
-				'src/js/page/Faq.js',
-				'src/js/page/objects/SocialFeeds.js',
-				'src/js/page/objects/InstagramFeed.js',
-				'src/js/page/objects/YTVAds.js',
-				'src/js/ytv/ytv.js',
-				'src/js/page/objects/YTVHeaderFooter.js',
 				'src/js/Initialize.js'
 			]
 		},
@@ -80,7 +71,6 @@ module.exports = function(grunt) {
 						environment:{
 							id: "dev",
 							host: "dev.thesecretlocation.net/ytvi-vns7",
-							ytvPHP: "http://dev.thesecretlocation.net/ytvi-vns7/js/ytv/ytv.php?p=",
 							dest: "dist/dev/",
 							dir: "/ytvi-vns7/",
 							gaID: "UA-48884292-2"
@@ -94,7 +84,6 @@ module.exports = function(grunt) {
 						environment:{
 							id: "test",
 							host: "vns7.test.thesecretlocation.net",
-							ytvPHP: "http://vns7.test.thesecretlocation.net/js/ytv/ytv.php?p=",
 							dest: "dist/test/",
 							dir: "/",
 							gaID: "UA-48884292-2"
@@ -108,7 +97,6 @@ module.exports = function(grunt) {
 						environment:{
 							id: "stage",
 							host: "vns7.stage.thesecretlocation.net",
-							ytvPHP: "http://vns7.stage.thesecretlocation.net/js/ytv/ytv.php?p=",
 							dest: "dist/stage/",
 							dir: "/",
 							gaID: "UA-48884292-2"
@@ -122,7 +110,6 @@ module.exports = function(grunt) {
 						environment:{
 							id: "prod",
 							host: "vns7.prod.thesecretlocation.net",
-							ytvPHP: "http://vns7.prod.thesecretlocation.net/js/ytv/ytv.php?p=",
 							dest: "dist/prod/",
 							dir: "/",
 							gaID: "UA-48884292-1"
@@ -189,14 +176,12 @@ module.exports = function(grunt) {
 					style: 'expanded'
 				},
 				files:{
-					"<%= environment.dest %>css/main.css": "src/css/main.sass",
-					"<%= environment.dest %>css/ie9.css": "src/css/ie9.sass"
+					"<%= environment.dest %>css/main.css": "src/css/main.sass"
 				}
 			},
 			compile: {
 				files:{
-					"<%= environment.dest %>css/main-min.css": "src/css/main.sass",
-					"<%= environment.dest %>css/ie9.css": "src/css/ie9.sass"
+					"<%= environment.dest %>css/main-min.css": "src/css/main.sass"
 				}
 			}
 		},
@@ -234,10 +219,6 @@ module.exports = function(grunt) {
 				},
 				files: {
 					"<%= environment.dest %>index.html": "src/template/page/home.jade",
-					"<%= environment.dest %>judges/index.html": "src/template/page/judges.jade",
-					"<%= environment.dest %>carlos/index.html": "src/template/page/carlos.jade",
-					"<%= environment.dest %>faq/index.html": "src/template/page/faq.jade",
-					"<%= environment.dest %>need2audition/index.html": "src/template/page/need2audition.jade",
 					"<%= environment.dest %>about/about/index.html": "src/template/page/about.jade"
 				}
 			}
