@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------------------------
+//- Javascript sources
+//---------------------------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------------------------
+//- Public CDN js files - Insert any files that live on a public CDN
+//- It is generally preferred to use popular public cdn scripts as they will
+//- typically be cached on users' computers. 
+//-
+//- TODO: add backups to CDN scripts not being available
+//---------------------------------------------------------------------------------------------
+
+each script in scripts.cdn
+	script(src="#{script}")
+
+//---------------------------------------------------------------------------------------------
+//- Application specific scripts
+//---------------------------------------------------------------------------------------------
+
+if (environment.id == "local" || environment.id == "dev")
+	each script in scripts.libs
+		script(src="#{environment.dir}#{script.replace(srcDir, '')}")
+	each script in scripts.app
+		script(src="#{environment.dir}#{script.replace(srcDir, '')}")
+else
+	script(src="#{environment.dir}js/libs.js")
+	script(src="#{environment.dir}js/main-min.js")

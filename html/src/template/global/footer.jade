@@ -1,0 +1,51 @@
+section.footer
+	//-------------------------------------------------------------------------------------
+	//- FOOTER - MOBILE
+	//-------------------------------------------------------------------------------------
+	#footer-m
+		#footer-m-links
+			ul
+				a(href="http://ytv.com/info/privacy", target="_blank")
+					li privacy policy
+				a(href="http://ytv.com/info/terms-of-use", target="_blank")
+					li terms of use
+				a(href="http://ytv.com/info/sitemap.aspx", target="_blank")
+					li sitemap
+		#footer-m-sponsor
+			#m-sponsor-container
+				a(href="http://www.corusent.com/home/default.aspx", target="_blank")					
+					#corus
+				a(href="http://kidsandfamily.triconfilms.com/", target="_blank")						
+					#tricon
+				a(href="http://www.thesecretlocation.com/", target="_blank")					
+					#secret-location
+			#footer-m-copyright
+				p &copy; 2014 Corus Digital Inc. and YTV Canada Inc
+
+	//-------------------------------------------------------------------------------------
+	//- FOOTER - DESKTOP YTV
+	//-------------------------------------------------------------------------------------
+	#ytv-footer-container
+	//-------------------------------------------------------------------------------------
+	//- YTV HEADER/FOOTER SCRIPT CODE
+	//-------------------------------------------------------------------------------------
+	script(type="text/javascript").
+		var _ytvLoader =  '#{environment.ytvPHP}';
+	//-------------------------------------------------------------------------------------
+	//- SiteCatalyst code version: H.19.4. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com
+	//-------------------------------------------------------------------------------------
+	script(type="text/javascript",src="#{environment.dir}http://www.ytv.com/scripts/s_code.js")
+	script(language="JavaScript",type="text/javascript").
+		s.channel = 'shows';
+		s.prop1 = 'shows:apromo';
+		s.prop2 = 'shows:apromo:next-star-super-group-the';
+		s.prop13 = 'ytv';
+		s.prop3 = 'shows:apromo:next-star-super-group-the';
+		s.prop22 = 'shows:apromo:next-star-super-group-the';
+		s.prop23 = 'shows:apromo:next-star-super-group-the';
+		s.prop24 = 'shows:apromo:next-star-super-group-the';
+		s.pageName = 'shows:apromo:next-star-super-group-the';
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		// var s_code=s.t();
+		// if(s_code) document.write(s_code)//-->
+		console.log('Omniture Track Initalized');

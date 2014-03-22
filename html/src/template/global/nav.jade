@@ -1,0 +1,69 @@
+section.nav
+	header#ytv-header-container
+
+	//-------------------------------------------------------------------------------------
+	//- MOBILE HEADER
+	//-------------------------------------------------------------------------------------
+	header.mobile#m-header
+		a(href="http://www.ytv.com")
+			#m-yellow
+		a(href="http://www.ytv.com")#m-ytv-logo
+			img(src="#{environment.dir}asset/site/img/mobile/m-ytv.png")
+
+	//-------------------------------------------------------------------------------------
+	//- MOBILE NAV
+	//-------------------------------------------------------------------------------------
+	nav#m-nav
+		#m-nav-container
+			#m-nav-bar
+				a(href="#{environment.dir}")
+					img(src="#{environment.dir}asset/site/img/logo.png")#m-logo
+				#m-hamburger
+					#m-nav-comingSoon coming<br> soon
+	
+	//-------------------------------------------------------------------------------------
+	//- DESKTOP NAV
+	//-------------------------------------------------------------------------------------
+	nav#globalNav
+		#navContainer
+			a(href="#{environment.dir}")				
+				img(src="#{environment.dir}asset/site/img/logo.png")#logoHome
+			a.navBtn#nav1(href="#{environment.dir}judges")
+				#judgesNav
+					#judgesNavBtn
+					#cs-Judges
+			a(class='navBtn', id='nav2', href="#{environment.dir}carlos")
+				#carlosNav
+					#carlosNavBtn
+					#cs-Carlos		
+			a(class='navBtn', id='nav3', href="#{environment.dir}faq")
+				#faqNav
+					#faqNavBtn
+					#cs-Faq
+			#nav4
+				#needToKnowNav
+					#needToKnowNavBtn
+					#cs-Need
+					#navEdge
+				ul#audition-extended
+					li 
+						img(src="#{environment.dir}asset/site/img/navBtns/audition-icon.png")
+						span &nbsp;click one to download the pdf
+
+					li 
+						a(href="#{environment.dir}asset/site/doc/song_list.pdf", target="_blank") song list
+					
+					li 
+						a(href="#{environment.dir}asset/site/doc/TNS7_Top15Things.pdf", target="_blank") top 15 things to know
+					li 
+						a(href="#{environment.dir}asset/site/doc/TNS7_WhatHappensIf.pdf", target="_blank") what if i make it?
+					li
+						a(href="#{environment.dir}asset/site/doc/song_list.pdf", target="_blank") rules and procedures
+					li 
+						a(href="#{environment.dir}asset/site/doc/song_list.pdf", target="_blank") regles et procedures
+					li
+						a(href="#{environment.dir}asset/site/doc/TNS7_Release.pdf", target="_blank") release form
+					li 
+						a(href="#{environment.dir}asset/site/doc/TNS7_Release_FR.pdf", target="_blank") formulaire de decharge
+
+			img(src="#{environment.dir}asset/site/img/navBtns/coming-soon.png")#coming-soon

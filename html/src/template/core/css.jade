@@ -1,0 +1,8 @@
+//-------------------------------------------------------------------------------------
+//- CSS sources
+//-------------------------------------------------------------------------------------
+
+if environment.id == "local"
+	link(rel="stylesheet", href="#{environment.dir}css/main.css", type="text/css")
+else
+	link(rel="stylesheet", href="#{environment.dir}css/main-min.css", type="text/css")

@@ -1,0 +1,25 @@
+//-------------------------------------------------------------------------------------
+//- Base jade file that each page extends
+//- Any alterations to this file will result in global alterations to each page
+//-------------------------------------------------------------------------------------
+
+doctype 5
+
+//if IE 8
+	html(lang='en').ie8
+//if IE 9
+	html(lang='en').ie9
+//if gt IE 9
+	<!--><html lang='en'><!--
+
+
+block setup
+
+head
+	include core/meta
+	include core/css
+
+body(data-js-class=jsClass)
+	block content
+	include core/js
+	include core/analytic

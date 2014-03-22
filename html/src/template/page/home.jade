@@ -1,0 +1,38 @@
+//-------------------------------------------------------------------------------------
+//- Home page
+//-------------------------------------------------------------------------------------
+
+extends ../base
+
+block setup
+	- jsClass = "Home";
+
+
+block content
+	.wrapper
+		include ../global/nav
+
+		section.home-content
+			//-------------------------------------------------------------------------------------
+			//- MAIN UPPER
+			//-------------------------------------------------------------------------------------
+			.mainUpper
+				.mainUpper-container
+					img(src="#{environment.dir}asset/site/img/the-next-star.png")#theNextStar
+					img(src="#{environment.dir}asset/site/img/carlos-home.png")#carlos-home
+					p.
+						Wanna make your voice heard? We'll have audition forms, venues, song list and all that jazz coming your way soon! In the meantime, follow us on Facebook or Twitter to get the latest info! #TNS7
+			//-------------------------------------------------------------------------------------
+			//- MAIN LOWER
+			//-------------------------------------------------------------------------------------
+			//-------------------------------------------------------------------------------------
+			//- MAIN LOWER - LEFT COLUMN
+			//-------------------------------------------------------------------------------------
+			include ../component/col-left
+
+			//-------------------------------------------------------------------------------------
+			//- MAIN LOWER - RIGHT COLUMN
+			//-------------------------------------------------------------------------------------
+			include ../component/col-right
+
+		include ../global/footer
