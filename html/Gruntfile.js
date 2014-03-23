@@ -58,7 +58,6 @@ module.exports = function(grunt) {
 						environment:{
 							id: "local",
 							host: "localhost",
-							ytvPHP: "http://dev.thesecretlocation.net/ytvi-vns7/js/ytv/ytv.php?p=",
 							dest: "dist/local/",
 							dir: "/"
 						}
@@ -70,7 +69,7 @@ module.exports = function(grunt) {
 					variables: {
 						environment:{
 							id: "dev",
-							host: "dev.thesecretlocation.net/ytvi-vns7",
+							host: "whatever.thesecretlocation.net/ytvi-vns7",
 							dest: "dist/dev/",
 							dir: "/ytvi-vns7/",
 							gaID: "UA-48884292-2"
@@ -83,7 +82,7 @@ module.exports = function(grunt) {
 					variables: {
 						environment:{
 							id: "test",
-							host: "vns7.test.thesecretlocation.net",
+							host: "whatever.test.thesecretlocation.net",
 							dest: "dist/test/",
 							dir: "/",
 							gaID: "UA-48884292-2"
@@ -96,7 +95,7 @@ module.exports = function(grunt) {
 					variables: {
 						environment:{
 							id: "stage",
-							host: "vns7.stage.thesecretlocation.net",
+							host: "whatever.stage.thesecretlocation.net",
 							dest: "dist/stage/",
 							dir: "/",
 							gaID: "UA-48884292-2"
@@ -109,7 +108,7 @@ module.exports = function(grunt) {
 					variables: {
 						environment:{
 							id: "prod",
-							host: "vns7.prod.thesecretlocation.net",
+							host: "whatever.prod.thesecretlocation.net",
 							dest: "dist/prod/",
 							dir: "/",
 							gaID: "UA-48884292-1"
