@@ -175,12 +175,14 @@ module.exports = function(grunt) {
 					style: 'expanded'
 				},
 				files:{
-					"<%= environment.dest %>css/main.css": "src/css/main.sass"
+					"<%= environment.dest %>css/main.css": "src/css/main.sass",
+					"<%= environment.dest %>css/normalize.css": "src/css/normalize.css"					
 				}
 			},
 			compile: {
 				files:{
-					"<%= environment.dest %>css/main-min.css": "src/css/main.sass"
+					"<%= environment.dest %>css/main-min.css": "src/css/main.sass",
+					"<%= environment.dest %>css/normalize.css": "src/css/normalize.css"
 				}
 			}
 		},
