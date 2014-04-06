@@ -10,23 +10,7 @@ block setup
 
 block content
 	main
-		section#slide-1.homeSlide
-			.bcg
-				.hsContainer
-					.hsContent
-						h2 Simple Parallax Scrolling is...
-		section#slide-2.homeSlide
-			.bcg
-				.hsContainer
-					.hsContent
-						h2 Simple Parallax Scrolling is...
-		section#slide-3.homeSlide
-			.bcg
-				.hsContainer
-					.hsContent
-						h2 Simple Parallax Scrolling is...
-		section#slide-4.homeSlide
-			.bcg
-				.hsContainer
-					.hsContent
-						h2 Simple Parallax Scrolling is...
+		- for (var i=1; i<=6; i++) {
+			section(class="slide", id="slide#{i}", data-slide="data-slide#{i}", data-stellar-background-ratio="0")
+			// end of slide
+		- }
