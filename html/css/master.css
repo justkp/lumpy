@@ -78,6 +78,14 @@
 	background-repeat: no-repeat;
 }
 
+.j #break3 {
+	background-image: url('../asset/img/bg-m3.jpg');
+	background-color: #08090e;
+	background-size: auto 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
 
 .j #schedule-list {
 	position: relative;
