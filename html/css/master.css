@@ -6,5 +6,30 @@
 =====================================================================
 */
 
+
+.j #schedule {
+	background: #fff url(img/grey.png) !important}
+
 .j footer h3 {
   color: #0A6567; }
+
+.j #subscribe #mc_embed_signup form input {
+	opacity: 1; }
+
+.j .j-float-l {
+	float: left; }
+
+.j .j-float-l {
+	width: 31%; }
+
+
+.j #schedule dl dt {
+	clear: both; }
+.j #schedule dl dt {
+	padding: 1em 0 0.5em; }
+/*
+.j #schedule #schedule-list dt {
+	float: left; }
+
+.j #schedule #schedule-list dt dd {
+	float: left; }*/
