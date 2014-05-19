@@ -57,3 +57,41 @@
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
+
+
+
+
+.j #schedule-list {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+
+.j #schedule-list .schedule-container {
+	position: relative;
+	display: inline-block;
+	width: 33%;
+	float: left;
+	/*border: 1px solid grey;*/
+	padding: 1em 1em;
+}
+
+/*.j #schedule-list .schedule-container:nth-child(2) {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}*/
+
+
+@media screen and (max-width:768px) {
+	.j #schedule-list .schedule-container {
+		display: block;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.j #schedule h5 {
+		text-align: center;
+	}	
+}
