@@ -18,9 +18,8 @@
 
 .j .j-float-l {
 	float: left; }
-
-.j .j-float-l {
-	width: 31%; }
+.j .j-float-r {
+	float: right; }
 
 
 .j #schedule dl dt {
@@ -33,3 +32,28 @@
 
 .j #schedule #schedule-list dt dd {
 	float: left; }*/
+
+.j .break {
+	width: 100%;
+	max-width: 1024px;
+	height: 250px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.j #break1 {
+	background-image: url('../asset/img/bg-m1.jpg');
+	background-color: #08090e;
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.j #break2 {
+	background-image: url('../asset/img/bg-m2.jpg');
+	background-color: #08090e;
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
