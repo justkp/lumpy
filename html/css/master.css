@@ -6,7 +6,9 @@
 =====================================================================
 */
 
-
+.j .hero-text p {
+	margin: 12px 1% 0;
+}
 .j #schedule {
 	background: #fff url(img/grey.png) !important}
 
@@ -21,6 +23,20 @@
 .j .j-float-r {
 	float: right; }
 
+.j .j-logo {
+	width: 50px;
+	height: 42px;
+	position: relative;
+	top: -7px;
+	left: -9px;
+	background-image: url('../asset/img/logo2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+.j .j-logo:hover {
+	opacity: 1;
+}
 
 .j #schedule dl dt {
 	clear: both; }
@@ -42,6 +58,10 @@
 	margin: 0 auto;
 }
 
+.j .break > div {
+	margin-top: 24px;
+}
+
 .j #break1 {
 	background-image: url('../asset/img/bg-m1.jpg');
 	background-color: #08090e;
@@ -57,8 +77,6 @@
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
-
-
 
 
 .j #schedule-list {
@@ -82,6 +100,14 @@
 	border-right: 1px solid gray;
 }*/
 
+
+.j footer h4 {
+	color: #0A6567;
+}
+/*
+.j .color-green {
+	color: #11ABB0;
+}*/
 
 @media screen and (max-width:768px) {
 	.j #schedule-list .schedule-container {
