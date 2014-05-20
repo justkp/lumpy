@@ -167,4 +167,22 @@
 	.j #schedule h5 {
 		text-align: center;
 	}	
+	.j #break1 .break blockquote {
+		text-align: right;
+	}
+	.j #break3 .break blockquote {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.j section {
+		padding: 20px 0 12px !important;
+	}
+	.j .break blockquote p {
+		font-size: 1em;
+	}
+	.j aside {
+		padding: 10px 22px 10px 0;
+	}
 }
