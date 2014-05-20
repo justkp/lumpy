@@ -117,6 +117,10 @@
 	color: #11ABB0;
 }*/
 
+.j footer .copyright {
+	padding: 2em 1em;
+}
+
 @media screen and (max-width:768px) {
 	.j #schedule-list .schedule-container {
 		display: block;
