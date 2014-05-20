@@ -165,7 +165,7 @@ ul#nav li.current a { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   background: #23292f url(../asset/img/hero-bg.png);
    overflow: hidden;
 }
 
@@ -175,7 +175,7 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #23292f url(img/hero-bg_@2X.png); 
+		background: #23292f url(../asset/img/hero-bg_@2X.png); 
 		background-size: 200px 200px;
 	}
   
@@ -348,7 +348,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #screenshots {
-   background: #fff url(img/grey.png);
+   background: #fff url(../asset/img/grey.png);
    padding-top: 96px;
    padding-bottom: 120px;
 }
@@ -359,7 +359,7 @@ ul.features li:nth-child(even) { }
 (min-resolution: 192dpi) {
 
    #screenshots {
-      background: #fff url(img/grey_@2X.png);
+      background: #fff url(../asset/img/grey_@2X.png);
       background-size: 397px 322px;
    }
 
@@ -400,7 +400,7 @@ ul.features li:nth-child(even) { }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(img/overlay-bg.png) repeat;
+   background: url(../asset/img/overlay-bg.png) repeat;
 }
 .item .item-wrap .link-icon {
    display: block;
@@ -508,7 +508,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #10999E url(img/escheresque.png);
+   background: #10999E url(../asset/img/escheresque.png);
    padding-top: 112px;
    padding-bottom: 66px;
    position: relative;
@@ -524,7 +524,7 @@ ul.features li:nth-child(even) { }
 (min-resolution: 192dpi) {
 
 	#testimonials {
-		background: #10999E url(img/escheresque_@2X.png);
+		background: #10999E url(../asset/img/escheresque_@2X.png);
 		background-size: 46px 29px;
 	}
   

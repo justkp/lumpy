@@ -5,12 +5,25 @@
 *   
 =====================================================================
 */
+.j .wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.j body {
+	background-image: url();
+}
+/*
+.j header {
+	max-width: 1280px;
+	margin: 0 auto;
+	left: auto;
+}*/
 
 .j .hero-text p {
 	margin: 12px 1% 0;
 }
 .j #schedule {
-	background: #fff url(img/grey.png) !important}
+	background: #fff url(../asset/img/grey.png) !important; }
 
 .j footer h3 {
   color: #0A6567; }
@@ -19,7 +32,7 @@
 	opacity: 1; }
 
 .j .j-float-l {
-	float: left; }
+	float: left !important; }
 .j .j-float-r {
 	float: right; }
 
@@ -64,25 +77,28 @@
 
 .j #break1 {
 	background-image: url('../asset/img/bg-m1.jpg');
-	background-color: #08090e;
-	background-size: contain;
-	background-position: center bottom;
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: contain;*/
+	background-position: left bottom;
 	background-repeat: no-repeat;
 }
 
 .j #break2 {
 	background-image: url('../asset/img/bg-m2.jpg');
-	background-color: #08090e;
-	background-size: contain;
-	background-position: center bottom;
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: contain;*/
+	background-position: right bottom;
 	background-repeat: no-repeat;
 }
 
 .j #break3 {
 	background-image: url('../asset/img/bg-m3.jpg');
-	background-color: #08090e;
-	background-size: 100% 100%;
-	background-position: center bottom;
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: 100% 100%;*/
+	background-position: left bottom;
 	background-repeat: no-repeat;
 }
 
@@ -120,6 +136,25 @@
 .j footer .copyright {
 	padding: 2em 1em;
 }
+
+
+
+
+
+.j #about {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+.j #services {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+.j #contact {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+
+
 
 @media screen and (max-width:768px) {
 	.j #schedule-list .schedule-container {
