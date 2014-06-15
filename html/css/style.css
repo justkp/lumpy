@@ -1439,8 +1439,8 @@
         text-align: right;
     }
         
-    #inter-one {
-        padding: 0
+    .intermission {
+        padding: 0 !important;
     }
         
         
