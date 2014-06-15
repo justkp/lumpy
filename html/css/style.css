@@ -1115,16 +1115,31 @@
 		background-position: top left, center center;
 	}
 
+
+/*********************************************************************************/
+/* Three                                                                           */
+/*********************************************************************************/
+  
+    #three {
+        background: url('images/overlay.png'), url('../images/three.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+    }
+
+
 /*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
 
 	#work {
+/*
         background: url('images/overlay.png'), url('../images/three.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		padding-bottom: 0;
+*/
+/*		padding-bottom: 0;*/
 	}
 	
 		#work .row.images {
@@ -1435,14 +1450,40 @@
         padding: 10px;
     }
 
+    blockquote {
+        text-align: right;
+    }
+
     blockquote p {
         text-align: right;
     }
         
     .intermission {
-        padding: 0 !important;
+        padding: 0;
+        margin-bottom: 0;  
+    }
+    
+    #inter-two blockquote {
+        text-align: left
+    }
+
+    #inter-two blockquote p {
+        text-align: left
+    }
+
+    #two p a {
+        color: rgb(57, 69, 75);
+        text-decoration: none;
+    }
+    #two p a:hover {
+        color: rgb(255,105,180);
+        text-decoration: none;
+    }
+
+    #nav ul li:hover {
+        color: rgb(255,105,180);        
     }
         
-        
-        
-        
+    #logo:hover {
+        color: rgb(255,105,180);        
+    }
