@@ -1431,13 +1431,17 @@
 /*********************************************************************************/
 
     .bg-grey {
-        background-color: rgba(164, 185, 193, 0.6);
+        background-color: rgba(164, 185, 193, 0.5);
         padding: 10px;
     }
+
+    blockquote p {
+        text-align: right;
+    }
         
-        
-        
-        
+    #inter-one {
+        padding: 0
+    }
         
         
         
