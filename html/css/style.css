@@ -1,6 +1,9 @@
 @charset 'UTF-8';
+@import url(http://fonts.googleapis.com/css?family=Codystar:300,400);
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -23,6 +26,7 @@
 
 	body,input,textarea,select {
 		font-family: 'Source Sans Pro', sans-serif;
+/*        font-family: 'Codystar';*/
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -615,6 +619,7 @@
 		.fa:before {
 			display:inline-block;
 			font-family: FontAwesome;
+/*            font-family: 'Codystar';*/
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -1489,6 +1494,7 @@
 
     #two p a {
         color: rgb(57, 69, 75);
+        text-shadow: 1px 0px 1px rgba(255,105,180,0.5);
         text-decoration: none;
     }
     #two p a:hover {
@@ -1510,8 +1516,8 @@
     }
 
     #three ul li a {
-/*        color: rgb(57, 69, 75);*/
-          color: rgb(255,105,180);
+        color: rgb(57, 69, 75);
+        text-shadow: 1px 0px 1px rgba(255,105,180,0.5);
         text-decoration: none;
     }
 
@@ -1520,9 +1526,12 @@
         text-decoration: none;
     }
 
+
+
+
     #four div:nth-child(n+2) {
-        border-top: 2px solid pink;
-        padding: 1em 2em;
+/*        border-top: 2px solid rgba(255,105,180,0.3);*/
+        padding: 1em 2em 1em 3em;
     }
 
     #four div:nth-child(n+2) header h2 {
@@ -1531,4 +1540,31 @@
 
     #four div:nth-child(n+2) p {
 /*        display: none;*/
+    }
+
+
+    #video {
+        background-color: black;
+        padding: 20px 0;
+    }
+
+    #video iframe {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+
+    .j-opacity {
+        opacity: 0.9
+    }
+
+    header h2 {
+        font-family: 'Codystar';
+        color: rgb(255,105,180);
+    }
+
+    header h1 {
+        font-family: 'Codystar';        
     }
