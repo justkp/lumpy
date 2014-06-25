@@ -1570,3 +1570,21 @@
     header h1 {
         font-family: 'Codystar';        
     }
+
+/*
+    #work .j-studios a:hover {
+        padding: 1em;
+    }
+*/
+
+    #work .j-schedule-time {
+        display: table;
+    }
+
+    #work .j-schedule-time > div{
+        overflow: hidden;
+        height: 240px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
