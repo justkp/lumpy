@@ -1466,13 +1466,18 @@
 /*********************************************************************************/
 
     .bg-overlay {
-/*        background-color: rgba(164, 185, 193, 0.5);*/
+        background-color: rgba(255,105,180, 0.3);
+        padding: 10px;
+    }
+
+    .bg-overlay:hover {
         background-color: rgba(255,105,180, 0.5);
         padding: 10px;
     }
 
     blockquote {
         text-align: right;
+        border-left: none;
     }
 
     blockquote p {
@@ -1482,8 +1487,13 @@
     .intermission {
         padding: 0;
         margin-bottom: 0;  
+        background-image: url('images/tile-bg.jpg'); 
     }
     
+    .intermission .content.box {
+        background: none;
+    }
+
     #inter-two blockquote {
         text-align: left
     }
@@ -1491,6 +1501,23 @@
     #inter-two blockquote p {
         text-align: left
     }
+
+    #inter-four blockquote {
+        text-align: left
+    }
+    
+    #inter-four blockquote p {
+        text-align: left
+    }
+
+    #inter-contact blockquote {
+        text-align: left
+    }
+    
+    #inter-contact blockquote p {
+        text-align: left
+    }
+
 
     #two p a {
         color: rgb(57, 69, 75);
@@ -1584,5 +1611,15 @@
         height: 240px;
         display: table-cell;
         vertical-align: middle;
+    }
+
+
+    .button.style2.down.anchored.j-arrow-up {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        border-radius: 0 0 3em 3em;
     }
 
