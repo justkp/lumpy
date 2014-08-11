@@ -63,6 +63,9 @@
 /* Initialize                                                                    */
 /*********************************************************************************/
 
+    // touch highlight
+        document.addEventListener("touchstart", function(){}, true);
+
 	// skel
 		skel.init(_settings.skel);
 

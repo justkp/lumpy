@@ -1,0 +1,170 @@
+/*
+=====================================================================
+*   
+*   OVER WRITING - MORE CUSTOM STYLING
+*   
+=====================================================================
+*/
+.j .wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.j body {
+	background-image: url();
+}
+/*
+.j header {
+	max-width: 1280px;
+	margin: 0 auto;
+	left: auto;
+}*/
+
+.j .hero-text p {
+	margin: 12px 1% 0;
+}
+.j #schedule {
+	background: #fff url(../asset/img/grey.png) !important; }
+
+.j footer h3 {
+  color: #0A6567; }
+
+.j #subscribe #mc_embed_signup form input {
+	opacity: 1; }
+
+.j .j-float-l {
+	float: left !important; }
+.j .j-float-r {
+	float: right; }
+
+.j .j-logo {
+	width: 50px;
+	height: 42px;
+	position: relative;
+	top: -7px;
+	left: -9px;
+	background-image: url('../asset/img/logo2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+.j .j-logo:hover {
+	opacity: 1;
+}
+
+.j #schedule dl dt {
+	clear: both; }
+.j #schedule dl dt {
+	padding: 1em 0 0.5em; }
+/*
+.j #schedule #schedule-list dt {
+	float: left; }
+
+.j #schedule #schedule-list dt dd {
+	float: left; }*/
+
+.j .break {
+	width: 100%;
+	max-width: 1024px;
+	height: 250px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.j .break > div {
+	margin-top: 24px;
+}
+
+.j #break1 {
+	background-image: url('../asset/img/bg-m1.jpg');
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: contain;*/
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+.j #break2 {
+	background-image: url('../asset/img/bg-m2.jpg');
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: contain;*/
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.j #break3 {
+	background-image: url('../asset/img/bg-m3.jpg');
+	/*background-color: #08090e;*/
+	background-color: black;
+	/*background-size: 100% 100%;*/
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+
+.j #schedule-list {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+
+.j #schedule-list .schedule-container {
+	position: relative;
+	display: inline-block;
+	width: 33%;
+	float: left;
+	/*border: 1px solid grey;*/
+	padding: 1em 1em;
+}
+
+/*.j #schedule-list .schedule-container:nth-child(2) {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}*/
+
+
+.j footer h4 {
+	color: #0A6567;
+}
+/*
+.j .color-green {
+	color: #11ABB0;
+}*/
+
+.j footer .copyright {
+	padding: 2em 1em;
+}
+
+
+
+
+
+.j #about {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+.j #services {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+.j #contact {
+	background-image: url('../asset/img/grey.png') !important;
+	background-color: #fff;
+}
+
+
+
+@media screen and (max-width:768px) {
+	.j #schedule-list .schedule-container {
+		display: block;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.j #schedule h5 {
+		text-align: center;
+	}	
+}
