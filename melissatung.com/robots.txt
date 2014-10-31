@@ -1,0 +1,6 @@
+Sitemap: http://www.melissatung.com/sitemap.xml
+User-agent: *
+Disallow: /_index.html
+Disallow: /_images/
+Disallow: /readme.txt
+Disallow: /mail.php
